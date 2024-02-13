@@ -1,0 +1,77 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.imgs{
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.nav-link{
+    font-weight:bold;
+}
+.btn btn-outline-success{
+    background-color: rgb(171, 186, 131); 
+        border-color: rgb(196, 215, 146); 
+        color: rgb(209, 188, 188); 
+}
+body{
+    background-color: #bec0c0;
+}
+h2{
+    font-weight: bolder;
+}
+.member-1{
+    font-weight: bold;
+}
+.member-2{
+    font-weight: bold;
+}
+.member-3{
+    width: 350px;
+     font-weight: bold;
+}
+
+
+
+@media(min-width: 576px)and(max-width: 768px){
+.card{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+}
+
+.card{
+    background-color: #8b8882;
+    border-color: rgb(94, 94, 75);
+}
+
+footer{
+    margin-top: 90px;
+    background-color: #8b8882;
+    color: #fff;
+}
+.font-a-maps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.fonts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 50px;
+}
+i{
+    font-size: 30px;
+}
